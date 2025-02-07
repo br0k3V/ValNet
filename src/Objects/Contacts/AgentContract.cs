@@ -4,46 +4,62 @@ public class AgentContract
 {
     public static Dictionary<string, string> AgentContacts = new Dictionary<string, string>()
     {
-        {"Brimstone", "ace2bb52-de25-45b5-8e11-3dd2088f914d"},
-        {"Phoenix", "62b5521c-93f6-4178-aadd-043ed25ed21a"},
-        {"Sage", "e13d0f6f-5727-43bc-af9e-56c10cdb7176"},
-        {"Sova", "3051fb18-9240-4bf3-a9f5-eb9ae954cd9d"},
-        {"Viper", "f94fc320-a71f-47e3-b062-6798d14f17d6"},
-        {"Cypher", "2195e89f-20ad-4e37-b46c-cf46a6715dfd"},
-        {"Reyna", "4c9b0fcf-57cd-4e84-ae5a-ce89e396242f"},
-        {"Killjoy", "9443cbd4-da4d-4395-8152-26a5b269f339"},
-        {"Breach", "bfb8160e-eee0-46b1-a069-16f93adc7328"},
-        {"Omen", "eb35d061-4eed-4d22-81a3-1491ec892429"},
-        {"Jett", "c9d1c451-12fc-4601-a97c-8258765fb90d"},
-        {"Raze", "60f9f1f0-2bb7-47f9-85b7-b873a5a1123b"},
-        {"Skye", "e7e7c5e1-4e76-22f8-f423-078b33758464"},
-        {"Yoru", "358b6e88-4cbe-0cfb-c313-c290eba0c8bc"},
-        {"Astra", "1d40b4b9-4d86-50b7-9f79-3d939e09c661"},
-        {"KAYO", "9454d42a-471f-27b9-325c-319a355c34ee"},
-        {"Chamber", "ebfd35c7-4d47-11f6-63f3-0398f055d8ab"},
-        {"Neon", "6336272a-4be9-4b0c-68ef-d79c06e11ca2"},
+        {"Brimstone", "ace2bb52-de25-45b5-8e11-3dd2088f914d"}, // 01
+        {"Viper", "707eab51-4836-f488-046a-cda6bf494859"}, // 02
+        {"Omen", "8e253930-4c05-31dd-1b6c-968525494517"}, // 03 
+        {"Killjoy", "1e58de9c-4950-5125-93e9-a0aee9f98746"}, // 04
+        {"Cypher", "117ed9e3-49f3-6512-3ccf-0cada7e3823b"}, // 05
+        {"Sova", "3051fb18-9240-4bf3-a9f5-eb9ae954cd9d"}, // 06
+        {"Sage", "569fdd95-4d10-43ab-ca70-79becc718b46"}, // 07
+        // agent 08 is lore, in simple terms this agent was in the valorant protocol but took a break if i remember correctly
+        {"Phoenix", "eb93336a-449b-9c1b-0a54-a891f7921d69"}, // 09
+        {"Jett", "add6443a-41bd-e414-f6ad-e58d267f4e95"}, // 10
+        {"Reyna", "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc"}, // 11
+        {"Raze", "f94c3b30-42be-e959-889c-5aa313dba261"}, // 12
+        {"Breach", "5f8d3a7f-467b-97f3-062c-13acf203c006"}, // 13
+        {"Skye", "6f2a04ca-43e0-be17-7f36-b3908627744d"}, // 14
+        {"Yoru", "7f94d92c-4234-0a36-9646-3a87eb8b5c89"}, // 15
+        {"Astra", "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"}, // 16
+        {"KAYO", "601dbbe7-43ce-be57-2a40-4abd24953621"}, // 17
+        {"Chamber", "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"}, // 18
+        {"Neon", "bb2a4828-46eb-8cd1-e765-15848195d751"}, // 19
+        {"Fade", "dade69b4-4f5a-8528-247b-219e5a1facd6"}, // 20
+        {"Harbor", "95b78ed7-4637-86d9-7e41-71ba8c293152"}, // 21
+        {"Gekko", "e370fa57-4757-3604-3648-499e1f642d3f"}, // 22
+        {"Deadlock", "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235"}, // 23
+        {"Iso", "0e38b510-41a8-5780-5e8f-568b2a4f2d6c"}, // 24
+        {"Clove", "1dbf2edd-4729-0984-3115-daa5eed44993"}, // 25
+        {"Vyse", "efba5359-4016-a1e5-7626-b1ae76895940"}, // 26
+        {"Tejo", "b444168c-4e35-8076-db47-ef9bf368f384"}, // 27
     };
 }
 
 public enum AgentContact
 {
     Brimstone,
-    Phoenix,
-    Sage,
-    Sova,
     Viper,
-    Cypher,
-    Reyna,
-    Killjoy,
-    Breach,
     Omen,
+    Killjoy,
+    Cypher,
+    Sova,
+    Sage,
+    Phoenix,
     Jett,
+    Reyna,
     Raze,
+    Breach,
     Skye,
     Yoru,
     Astra,
     KAYO,
     Chamber,
-    Neon
-    
+    Neon,
+    Fade,
+    Harbor,
+    Gekko,
+    Deadlock,
+    Iso,
+    Clove,
+    Vyse,
+    Tejo
 }
